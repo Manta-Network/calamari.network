@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2858px" height="1127px" viewBox="0 0 2858 1127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <defs>
+        <radialGradient cx="50%" cy="5.71946966%" fx="50%" fy="5.71946966%" r="91.1566766%" gradientTransform="translate(0.500000,0.057195),scale(0.394332,1.000000),rotate(90.000000),scale(1.000000,1.010143),translate(-0.500000,-0.057195)" id="radialGradient-1">
+            <stop stop-color="#EE5E5E" offset="0.0409746503%"></stop>
+            <stop stop-color="#1C0029" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="2858" height="1127"></rect>
+    </g>
+</svg>
