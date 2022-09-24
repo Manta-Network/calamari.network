@@ -65,7 +65,7 @@ export const Header: FC = () => {
             className="cursor-pointer duration-300 hover:text-white"
             onClick={() => window.open('https://calamari.subscan.io/')}
           >
-            Subscan Explorer
+            Block Explorer
           </div>
         </div>
         <div className="flex flex-col gap-[12px] text-[17px]">

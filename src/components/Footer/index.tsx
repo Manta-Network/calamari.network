@@ -30,7 +30,9 @@ export const Footer: FC = () => {
       <div className="flex items-center gap-[10px]">
         <div
           className="flex h-[42px] w-[42px] cursor-pointer items-center justify-center rounded-[9px] bg-gray1"
-          onClick={() => window.open('https://twitter.com/MantaNetwork')}
+          onClick={() =>
+            window.open('https://twitter.com/CalamariNetwork?s=20&t=WnN25-sBtGkQwJmZKoMuMQ')
+          }
         >
           <img src={twitter} className="w-[25px] duration-200 hover:scale-[1.2]" />
         </div>
