@@ -12,7 +12,7 @@ export const Footer: FC = () => {
         <div className="text-[25px]">Calamari Network</div>
         <div className="my-[25px] text-[20px] text-gray">
           Calamari Network is a private layer built for the entire Kusama ecosystem. Built on the
-          substrate framwork, Calamari Network is natively compatible with other projects and
+          substrate framework, Calamari Network is natively compatible with other projects and
           parachain assets including wrapped major cryptoassets.
         </div>
         <div className="flex items-center text-[20px] text-gray">

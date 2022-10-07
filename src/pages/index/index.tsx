@@ -96,8 +96,7 @@ export const Index: FC = () => {
         <div className="shrink-0 bg-black1 px-[35px] py-[40px]">
           <div className="text-[30px] sm:text-[25px]">MantaPay</div>
           <div className="mt-[16px] mb-[33px] max-w-[295px] text-[20px] text-gray  sm:max-w-[250px] sm:text-[16px]">
-            MantaPay is coming to Calamari as the first privacy payment solution in Kusama
-            ecosystem.
+            MantaPay is coming to Calamari as the first privacy payment solution in the Kusama ecosystem.
           </div>
           <Button
             text="Try the Testnet"
