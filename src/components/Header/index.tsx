@@ -99,7 +99,7 @@ export const Header: FC = () => {
           </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://app.dolphin.manta.network/')}
+            onClick={() => window.open('https://app.manta.network/dolphin/transact')}
           >
             MantaPay
           </div>
@@ -195,7 +195,7 @@ export const Header: FC = () => {
         type="outline"
         text="Try MantaPay on Dolphin"
         className="ml-auto shrink-0 sm:text-[16px]"
-        onClick={() => window.open('https://app.dolphin.manta.network/')}
+        onClick={() => window.open('https://app.manta.network/dolphin/transact')}
       />
     </div>
   );

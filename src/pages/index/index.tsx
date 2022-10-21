@@ -101,7 +101,7 @@ export const Index: FC = () => {
           </div>
           <Button
             text="Try the Testnet"
-            onClick={() => window.open('https://app.dolphin.manta.network')}
+            onClick={() => window.open('https://app.manta.network/dolphin/transact')}
           />
         </div>
       </div>
