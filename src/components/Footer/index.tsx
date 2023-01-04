@@ -23,7 +23,7 @@ export const Footer: FC = () => {
             className="cursor-pointer text-white duration-200 hover:text-gray"
             onClick={() => window.open('https://p0xeidon.xyz/')}
           >
-            &nbsp;P0xeidon Labs
+            &nbsp;p0x labs
           </span>
         </div>
       </div>
