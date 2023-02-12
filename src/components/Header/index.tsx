@@ -142,7 +142,7 @@ export const Header: FC = () => {
         </div>
         <div
           className="cursor-pointer duration-300 hover:text-white"
-          onClick={() => window.open('https://twitter.com/MantaNetwork')}
+          onClick={() => window.open('https://twitter.com/CalamariNetwork')}
         >
           Twitter
         </div>
