@@ -19,8 +19,8 @@ export const Index: FC = () => {
       </div>
       <div className="inline-block w-full bg-[url('assets/images/home/bg.svg')] bg-cover text-center">
         <Header />
-        <div className="mt-[170px] text-[50px]">The Privacy Hub for Kusama</div>
-        <div className="mt-[16px] text-[25px]">Bring privacy to your web3 project</div>
+        <div className="mt-[170px] text-[50px]">The ZK Hub for Kusama</div>
+        <div className="mt-[16px] text-[25px]">Enable ZK for your web3 project</div>
         <div className="mt-[75px] mb-[106px]">
           <Button
             text="Start staking"
