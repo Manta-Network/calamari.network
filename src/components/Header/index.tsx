@@ -154,7 +154,7 @@ export const Header: FC = () => {
         </div>
         <div
           className="cursor-pointer duration-300 hover:text-white"
-          onClick={() => window.open('hhttps://t.me/mantanetworkofficial')}
+          onClick={() => window.open('https://t.me/mantanetworkofficial')}
         >
           Telegram
         </div>
@@ -164,7 +164,16 @@ export const Header: FC = () => {
         >
           Medium
         </div>
-        <div className="cursor-pointer duration-300 hover:text-white">MediaKits</div>
+        <div
+          className="cursor-pointer duration-300 hover:text-white"
+          onClick={() =>
+            window.open(
+              'https://github.com/Manta-Network/calamari.network/blob/main/src/assets/images/home/logo.svg',
+            )
+          }
+        >
+          MediaKits
+        </div>
       </div>
     );
   };
