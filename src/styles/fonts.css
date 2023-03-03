@@ -11,3 +11,21 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'RedHatMono';
+  src: url('assets/fonts/RedHatMono-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'RedHatMono';
+  src: url('assets/fonts/RedHatMono-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'RedHatText';
+  src: url('assets/fonts/RedHatText-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'RedHatText';
+  src: url('assets/fonts/RedHatText-VariableFont_wght.ttf');
+}
