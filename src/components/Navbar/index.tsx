@@ -8,9 +8,12 @@ enum NAVBAR_TYPE {
 }
 export const Navbar: FC = () => {
   const [navbarType, setNavbarType] = useState(NAVBAR_TYPE.DEFAULT);
-  const defaultNav = <DefaultNav />;
-  const giantSquidNav = <GiantSquidNav />;
-
+  let finalContent = <DefaultNav />;
+  if (navbarType == NAVBAR_TYPE.GIANT_SQUID) {
+    finalContent = <GiantSquidNav />;
+  } else if (navbarType == NAVBAR_TYPE.DEFAULT) {
+    finalContent = <DefaultNav />;
+  }
   useEffect(() => {
     if (giantSquidTimeDuring()) {
       setNavbarType(NAVBAR_TYPE.GIANT_SQUID);
@@ -18,8 +21,5 @@ export const Navbar: FC = () => {
       setNavbarType(NAVBAR_TYPE.DEFAULT);
     }
   }, []);
-  return {
-    [NAVBAR_TYPE.GIANT_SQUID]: giantSquidNav,
-    [NAVBAR_TYPE.DEFAULT]: defaultNav,
-  }[navbarType];
+  return finalContent;
 };
