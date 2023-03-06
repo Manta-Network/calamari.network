@@ -1,4 +1,4 @@
-const giantSquidStartTimeStr = 'Mon, 06 Mar 2023 11:50:34 GMT';
+const giantSquidStartTimeStr = 'Mon, 06 Mar 2023 10:50:34 GMT';
 const giantSquidEndTimeStr = 'Mon, 06 Mar 2023 12:51:34 GMT';
 interface ITimeDuring {
   (timeStr: string, startTimeStr: string, endTimeStr: string): boolean;
