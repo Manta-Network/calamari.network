@@ -15,7 +15,9 @@ body,
 body {
   @apply m-0 bg-black font-mono font-bold text-white;
 }
-
+.font-red-hat-mono {
+  font-family: 'Red Hat Mono' !important;
+}
 *,
 ::before,
 ::after {
