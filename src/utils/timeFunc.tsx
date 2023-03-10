@@ -1,5 +1,5 @@
-const giantSquidStartTimeStr = 'Fri, 10 Mar 2023 04:30:10 GMT';
-const giantSquidEndTimeStr = 'Fri, 10 Mar 2023 23:08:10 GMT';
+const giantSquidStartTimeStr = 'Fri Mar 10 2023 15:50:09 GMT+0800 (中国标准时间)';
+const giantSquidEndTimeStr = 'Sat Mar 11 2023 20:50:30 GMT+0800 (中国标准时间)';
 interface ITimeDuring {
   (timeStr: string, startTimeStr: string, endTimeStr: string): boolean;
 }
@@ -7,7 +7,11 @@ interface ITimeGiantDuring {
   (): boolean;
 }
 export const giantSquidTimeDuring: ITimeGiantDuring = () => {
-  return judgeDuringTime(new Date().toUTCString(), giantSquidStartTimeStr, giantSquidEndTimeStr);
+  return judgeDuringTime(
+    new Date().toUTCString(),
+    new Date(giantSquidStartTimeStr).toUTCString(),
+    new Date(giantSquidEndTimeStr).toUTCString(),
+  );
 };
 export const judgeDuringTime: ITimeDuring = (
   timeStr: string,
