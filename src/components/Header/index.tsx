@@ -202,9 +202,9 @@ export const Header: FC = () => {
       </div>
       <Button
         type="outline"
-        text="Try MantaPay on Dolphin"
+        text="Launch APP"
         className="ml-auto shrink-0 sm:text-[16px]"
-        onClick={() => window.open('https://app.manta.network/dolphin/transact')}
+        onClick={() => window.open('https://app.manta.network/calamari/transact')}
       />
     </div>
   );
