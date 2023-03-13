@@ -1,5 +1,5 @@
-const giantSquidStartTimeStr = 'Fri Mar 10 2023 15:50:09 GMT+0800 (中国标准时间)';
-const giantSquidEndTimeStr = 'Sat Mar 11 2023 20:50:30 GMT+0800 (中国标准时间)';
+const giantSquidStartTimeStr = 'Thu Mar 16 2023 00:00:00 GMT+0800 (中国标准时间)';
+const giantSquidEndTimeStr = 'Fri Mar 31 2023 00:00:00 GMT+0800 (中国标准时间)';
 interface ITimeDuring {
   (timeStr: string, startTimeStr: string, endTimeStr: string): boolean;
 }
