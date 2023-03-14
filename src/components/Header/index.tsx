@@ -56,11 +56,16 @@ export const Header: FC = () => {
           </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://app.manta.network/#/calamari/stake')}
+            onClick={() => window.open('https://app.manta.network/calamari/stake')}
           >
             Staking
           </div>
-          <div className="cursor-pointer duration-300 hover:text-white">MantaPay (soon)</div>
+          <div
+            className="cursor-pointer duration-300 hover:text-white"
+            onClick={() => window.open('https://app.manta.network/calamari/transact')}
+          >
+            MantaPay
+          </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
             onClick={() => window.open('https://calamari.subscan.io/')}
@@ -90,12 +95,6 @@ export const Header: FC = () => {
           <div className="flex items-center gap-[7px]">
             <img src={dolphin} className="h-[30px]" />
             <div>Dolphin Testnet</div>
-          </div>
-          <div
-            className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://docs.manta.network/docs/guides/DolphinPay')}
-          >
-            What is Dolphin Testnet?
           </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
