@@ -21,7 +21,7 @@ export const Footer: FC = () => {
           <span>by </span>
           <span
             className="cursor-pointer text-white duration-200 hover:text-gray"
-            onClick={() => window.open('https://p0xeidon.xyz/')}
+            onClick={() => window.open('https://p0xlabs.xyz/')}
           >
             &nbsp;p0x labs
           </span>
