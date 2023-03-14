@@ -7,16 +7,12 @@ import solarbeam from 'assets/images/home/solarbeam.svg';
 import { Button } from 'components/Button';
 import { Footer } from 'components/Footer';
 import { Header } from 'components/Header';
+import { Navbar } from 'components/Navbar';
 
 export const Index: FC = () => {
   return (
     <div>
-      <div
-        className="h-[60px] cursor-pointer bg-gray2 text-center text-[20px] leading-[60px] text-orange1 hover:underline"
-        onClick={() => window.open('https://app.manta.network/#/calamari/stake')}
-      >
-        KMA Staking is Live {'>'}
-      </div>
+      <Navbar />
       <div className="inline-block w-full bg-[url('assets/images/home/bg.svg')] bg-cover text-center">
         <Header />
         <div className="mt-[170px] text-[50px]">The ZK Hub for Kusama</div>

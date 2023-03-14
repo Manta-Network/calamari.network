@@ -186,16 +186,16 @@ export const Header: FC = () => {
         >
           Manta
         </div>
-        <Dropdown overlay={<TechnologyMenu />} placement="bottomCenter">
+        <Dropdown overlay={<TechnologyMenu />} placement="bottom">
           <div className="cursor-pointer duration-200 hover:text-gray">Technology</div>
         </Dropdown>
-        <Dropdown overlay={<NetworksMenu />} placement="bottomCenter">
+        <Dropdown overlay={<NetworksMenu />} placement="bottom">
           <div className="cursor-pointer duration-200 hover:text-gray">Networks</div>
         </Dropdown>
-        <Dropdown overlay={<KMAMenu />} placement="bottomCenter">
+        <Dropdown overlay={<KMAMenu />} placement="bottom">
           <div className="shrink-0 cursor-pointer duration-200 hover:text-gray">KMA Token</div>
         </Dropdown>
-        <Dropdown overlay={<CommunityMenu />} placement="bottomCenter">
+        <Dropdown overlay={<CommunityMenu />} placement="bottom">
           <div className="cursor-pointer duration-200 hover:text-gray">Community</div>
         </Dropdown>
       </div>
