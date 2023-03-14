@@ -8,7 +8,7 @@ const GiantsquidNav: FC = () => {
       onClick={() => window.open('https://galxe.com/calamarinetwork/campaigns')}
     >
       <div className="mr-[16px]">
-        KMA holders can participate with the Giant Squid Program on Galxe.com now!
+        KMA holders can participate in the Giant Squid Program on Galxe.com now!
       </div>
       <div className="mr-[16px]">Find more details here</div>
       <img src={arrowRight} className="w-[24px]" />
