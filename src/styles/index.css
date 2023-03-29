@@ -9,12 +9,15 @@ html,
 body,
 #root {
   @apply flex grow flex-col;
+  --giantsquid-navbar-bg: linear-gradient(90deg, #eb559f 0%, #f3ab82 100%);
 }
 
 body {
   @apply m-0 bg-black font-mono font-bold text-white;
 }
-
+.font-red-hat-mono {
+  font-family: 'Red Hat Mono' !important;
+}
 *,
 ::before,
 ::after {
