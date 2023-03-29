@@ -123,7 +123,7 @@ export const Header: FC = () => {
         </div>
         <div
           className="cursor-pointer duration-300 hover:text-white"
-          onClick={() => window.open('https://app.manta.network/#/calamari/stake')}
+          onClick={() => window.open('https://app.manta.network/calamari/stake')}
         >
           Stake KMA
         </div>

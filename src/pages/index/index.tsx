@@ -21,7 +21,7 @@ export const Index: FC = () => {
           <Button
             text="Start staking"
             className="w-[200px]"
-            onClick={() => window.open('https://app.manta.network/#/calamari/stake')}
+            onClick={() => window.open('https://app.manta.network/calamari/stake')}
           />
           <Button
             type="outline"
@@ -41,7 +41,7 @@ export const Index: FC = () => {
           <Button
             text="Start staking"
             className="w-[170px]"
-            onClick={() => window.open('https://app.manta.network/#/calamari/stake')}
+            onClick={() => window.open('https://app.manta.network/calamari/stake')}
           />
         </div>
         <div className="shrink-0 bg-black1 px-[35px] py-[40px]">
