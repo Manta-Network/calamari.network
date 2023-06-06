@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import gate from 'assets/images/home/gate.svg';
-import huobi from 'assets/images/home/huobi.svg';
 import kucoin from 'assets/images/home/kucoin.svg';
 import mexc from 'assets/images/home/mexc.svg';
 import solarbeam from 'assets/images/home/solarbeam.svg';
@@ -15,8 +14,10 @@ export const Index: FC = () => {
       <Navbar />
       <div className="inline-block w-full bg-[url('assets/images/home/bg.svg')] bg-cover text-center">
         <Header />
-        <div className="mt-[170px] text-[50px]">The ZK Hub for Kusama</div>
-        <div className="mt-[16px] text-[25px]">Enable ZK for your web3 project</div>
+        <div className="mt-[170px] text-[50px]">The ZK Canary Net of Manta Network</div>
+        <div className="mt-[16px] text-[25px]">
+          Compliant on-chain privacy for web3 identity and assets
+        </div>
         <div className="mt-[75px] mb-[106px]">
           <Button
             text="Start staking"
@@ -25,9 +26,9 @@ export const Index: FC = () => {
           />
           <Button
             type="outline"
-            text="Learn tokenomics"
+            text="Mint Your zkSBT"
             className="ml-[57px] w-[200px] border-white py-[9px]"
-            onClick={() => window.open('https://docs.manta.network/docs/calamari/KMA/Tokenomics')}
+            onClick={() => window.open('https://npo.manta.network/calamari/sbt')}
           />
         </div>
       </div>
@@ -46,10 +47,10 @@ export const Index: FC = () => {
         </div>
         <div className="shrink-0 bg-black1 px-[35px] py-[40px]">
           <div className="text-[30px] sm:text-[25px]">Get KMA</div>
-          <div className="mt-[5px] mb-[25px] text-[20px] text-gray sm:text-[16px]">
+          <div className="mt-[15px] mb-[40px] text-[20px] text-gray sm:text-[16px]">
             KMA is now listed on
           </div>
-          <div className="mb-[30px] flex gap-[30px]">
+          <div className="mb-[45px] flex gap-[30px]">
             <div
               className="flex w-[120px] cursor-pointer items-center gap-[10px] duration-200 hover:text-gray"
               onClick={() => window.open('https://gate.io/')}
@@ -58,11 +59,11 @@ export const Index: FC = () => {
               <div className="text-[20px] sm:text-[16px]">Gate.io</div>
             </div>
             <div
-              className="flex cursor-pointer items-center gap-[10px] duration-200 hover:text-gray"
-              onClick={() => window.open('https://www.huobi.com/')}
+              className="flex cursor-pointer items-center justify-center gap-[10px] duration-200 hover:text-gray"
+              onClick={() => window.open('https://solarbeam.io/')}
             >
-              <img src={huobi} className="w-[24px] sm:w-[20px]" />
-              <div className="text-[20px] sm:text-[16px]">Huobi</div>
+              <img src={solarbeam} className="w-[24px] sm:w-[20px]" />
+              <div className="text-[20px] sm:text-[16px]">Solarbeam</div>
             </div>
           </div>
           <div className="mb-[30px] flex gap-[30px]">
@@ -81,23 +82,16 @@ export const Index: FC = () => {
               <div className="text-[20px] sm:text-[16px]">Kucoin</div>
             </div>
           </div>
-          <div
-            className="flex cursor-pointer items-center justify-center gap-[10px] duration-200 hover:text-gray"
-            onClick={() => window.open('https://solarbeam.io/')}
-          >
-            <img src={solarbeam} className="w-[24px] sm:w-[20px]" />
-            <div className="text-[20px] sm:text-[16px]">Solarbeam</div>
-          </div>
         </div>
         <div className="shrink-0 bg-black1 px-[35px] py-[40px]">
-          <div className="text-[30px] sm:text-[25px]">MantaPay</div>
-          <div className="mt-[16px] mb-[33px] max-w-[295px] text-[20px] text-gray  sm:max-w-[250px] sm:text-[16px]">
-            MantaPay is launched on Calamari as the first privacy payment solution in the Kusama
-            ecosystem.
+          <div className="text-[30px] sm:text-[25px]">NPO</div>
+          <div className="mt-[16px] mb-[33px] max-w-[310px] text-[16px] text-gray  sm:max-w-[250px] sm:text-[13px]">
+            The NFT Private Offering (NPO) is Calamari Network’s flagship platform, which allows
+            users to mint a privacy-enhanced SBT for compliant on-chain identity.
           </div>
           <Button
-            text="Try Now"
-            onClick={() => window.open('https://app.manta.network/calamari/transact')}
+            text="Mint Your zkSBT"
+            onClick={() => window.open('https://npo.manta.network/calamari/sbt')}
           />
         </div>
       </div>
