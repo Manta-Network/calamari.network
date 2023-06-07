@@ -11,9 +11,17 @@ export const Footer: FC = () => {
       <div>
         <div className="text-[25px]">Calamari Network</div>
         <div className="my-[25px] text-[20px] text-gray">
-          Calamari Network is the ZK layer for the entire Kusama ecosystem. Built on the substrate
-          framework, Calamari Network is natively compatible with other projects and parachain
-          assets including wrapped major cryptoassets.
+          Calamari Network is the canary network of{' '}
+          <span
+            className="cursor-pointer underline"
+            onClick={() => window.open('https://manta.network')}
+          >
+            Manta Network
+          </span>
+          ,{' '}
+          {
+            'and empowers web2 and web3 applications with trustless, private on-chain identity and transaction services.'
+          }
         </div>
         <div className="flex items-center text-[20px] text-gray">
           <span>Made with</span>

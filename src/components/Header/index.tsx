@@ -201,9 +201,9 @@ export const Header: FC = () => {
       </div>
       <Button
         type="outline"
-        text="Launch APP"
+        text="Launch NPO"
         className="ml-auto shrink-0 sm:text-[16px]"
-        onClick={() => window.open('https://app.manta.network/calamari/transact')}
+        onClick={() => window.open('https://npo.manta.network/calamari/sbt')}
       />
     </div>
   );
