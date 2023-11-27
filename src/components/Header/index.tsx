@@ -12,7 +12,7 @@ export const Header: FC = () => {
       <div className="flex flex-col gap-[12px] rounded-[14px] bg-black1 p-[20px] text-[17px] text-gray">
         <div
           className="cursor-pointer duration-300 hover:text-white"
-          onClick={() => window.open('https://docs.manta.network/')}
+          onClick={() => window.open('https://docs.calamari.network/')}
         >
           Documentation
         </div>
@@ -42,14 +42,14 @@ export const Header: FC = () => {
           <img src={calamari} className="h-[30px]" />
           <div
             className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://docs.manta.network/docs/calamari/Overview')}
+            onClick={() => window.open('https://docs.calamari.network/docs/calamari/Overview')}
           >
             What is Calamari?
           </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
             onClick={() =>
-              window.open('https://docs.manta.network/docs/collator/CommunityCollatorProgram')
+              window.open('https://docs.calamari.network/docs/collator/CommunityCollatorProgram')
             }
           >
             Run Collator
@@ -80,7 +80,7 @@ export const Header: FC = () => {
           </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://docs.manta.network/docs/Introduction')}
+            onClick={() => window.open('https://docs.calamari.network/docs/Introduction')}
           >
             What is Manta?
           </div>
@@ -111,7 +111,7 @@ export const Header: FC = () => {
       <div className="flex flex-col gap-[12px] rounded-[14px] bg-black1 p-[20px] text-[17px] text-gray">
         <div
           className="cursor-pointer duration-300 hover:text-white"
-          onClick={() => window.open('https://docs.manta.network/docs/calamari/KMA/Tokenomics')}
+          onClick={() => window.open('https://docs.calamari.network/docs/calamari/KMA/Tokenomics')}
         >
           Tokenomics
         </div>
