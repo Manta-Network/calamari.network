@@ -12,12 +12,6 @@ export const Header: FC = () => {
       <div className="flex flex-col gap-[12px] rounded-[14px] bg-black1 p-[20px] text-[17px] text-gray">
         <div
           className="cursor-pointer duration-300 hover:text-white"
-          onClick={() => window.open('https://docs.calamari.network/')}
-        >
-          Documentation
-        </div>
-        <div
-          className="cursor-pointer duration-300 hover:text-white"
           onClick={() => window.open('https://github.com/Manta-Network')}
         >
           Github
@@ -62,12 +56,6 @@ export const Header: FC = () => {
           </div>
           <div
             className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://app.manta.network/calamari/transact')}
-          >
-            MantaPay
-          </div>
-          <div
-            className="cursor-pointer duration-300 hover:text-white"
             onClick={() => window.open('https://calamari.subscan.io/')}
           >
             Block Explorer
@@ -89,18 +77,6 @@ export const Header: FC = () => {
             onClick={() => window.open('https://www.manta.network/')}
           >
             Manta Home
-          </div>
-        </div>
-        <div className="flex flex-col gap-[12px] text-[17px]">
-          <div className="flex items-center gap-[7px]">
-            <img src={dolphin} className="h-[30px]" />
-            <div>Dolphin Testnet</div>
-          </div>
-          <div
-            className="cursor-pointer duration-300 hover:text-white"
-            onClick={() => window.open('https://app.manta.network/dolphin/transact')}
-          >
-            MantaPay
           </div>
         </div>
       </div>
