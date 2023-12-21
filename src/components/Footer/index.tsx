@@ -18,10 +18,7 @@ export const Footer: FC = () => {
           >
             Manta Network
           </span>
-          ,{' '}
-          {
-            'and empowers web2 and web3 applications with trustless, private on-chain identity and transaction services.'
-          }
+          .
         </div>
         <div className="flex items-center text-[20px] text-gray">
           <span>Made with</span>
