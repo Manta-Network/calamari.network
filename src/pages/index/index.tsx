@@ -83,8 +83,8 @@ export const Index: FC = () => {
         <div className="shrink-0 bg-black1 px-[35px] py-[40px]">
           <div className="text-[30px] sm:text-[25px]">NPO</div>
           <div className="mt-[16px] mb-[33px] max-w-[310px] text-[16px] text-gray  sm:max-w-[250px] sm:text-[13px]">
-            The NFT Private Offering (NPO) is Calamari Network’s flagship platform, which allows
-            users to mint a privacy-enhanced SBT for compliant on-chain identity.
+            The NFT Private Offering (NPO) is Calamari Network's pioneering platform for minting a
+            secure Soulbound Token (SBT) that serves as your verifiable on-chain identity.
           </div>
           <Button
             text="Mint Your zkSBT"
