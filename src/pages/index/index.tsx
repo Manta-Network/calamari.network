@@ -15,9 +15,6 @@ export const Index: FC = () => {
       <div className="inline-block w-full bg-[url('assets/images/home/bg.svg')] bg-cover text-center">
         <Header />
         <div className="mt-[170px] text-[50px]">The ZK Canary Net of Manta Network</div>
-        <div className="mt-[16px] text-[25px]">
-          Compliant on-chain privacy for web3 identity and assets
-        </div>
         <div className="mt-[75px] mb-[106px]">
           <Button
             text="Start staking"
