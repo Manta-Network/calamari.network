@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3c1b135b.css",
-    "main.js": "/static/js/main.af0be0ba.js",
+    "main.js": "/static/js/main.f69e0c9d.js",
     "static/js/787.1173046c.chunk.js": "/static/js/787.1173046c.chunk.js",
     "static/media/manta.svg": "/static/media/manta.15d6a7cabb09bfb26dc442dd99c736d3.svg",
     "static/media/calamari.svg": "/static/media/calamari.f829698d753bccc9aa29e12f70f964e9.svg",
     "static/media/logo.svg": "/static/media/logo.a5faf6caa93c3d348a31184c3b1a64f7.svg",
     "static/media/IBMPlexMono-Medium.ttf": "/static/media/IBMPlexMono-Medium.38204bd122813ba4b34c.ttf",
-    "static/media/dolphin.svg": "/static/media/dolphin.514ce8017f43cd0c25474faeda46b9de.svg",
     "static/media/button-bg.svg": "/static/media/button-bg.5fff9979a27687decb7f.svg",
     "static/media/discord.svg": "/static/media/discord.ff9acae09e82f0b7cc924e2a7acd2efe.svg",
     "static/media/twitter.svg": "/static/media/twitter.4daef2d21f46b00bed8749a005206e02.svg",
@@ -22,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/bg.svg": "/static/media/bg.271a0412411984fb03e9.svg",
     "main.3c1b135b.css.map": "/static/css/main.3c1b135b.css.map",
-    "main.af0be0ba.js.map": "/static/js/main.af0be0ba.js.map",
+    "main.f69e0c9d.js.map": "/static/js/main.f69e0c9d.js.map",
     "787.1173046c.chunk.js.map": "/static/js/787.1173046c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c1b135b.css",
-    "static/js/main.af0be0ba.js"
+    "static/js/main.f69e0c9d.js"
   ]
 }
