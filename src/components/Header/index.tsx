@@ -85,12 +85,12 @@ export const Header: FC = () => {
   const KMAMenu = () => {
     return (
       <div className="flex flex-col gap-[12px] rounded-[14px] bg-black1 p-[20px] text-[17px] text-gray">
-        <div
+        {/* <div
           className="cursor-pointer duration-300 hover:text-white"
           onClick={() => window.open('https://docs.calamari.network/docs/calamari/KMA/Tokenomics')}
         >
           Tokenomics
-        </div>
+        </div> */}
         <div
           className="cursor-pointer duration-300 hover:text-white"
           onClick={() => window.open('https://solarbeam.io/')}
